@@ -26,7 +26,7 @@ namespace PersistenceWithMailbox
 
             Recover<string>(msg =>
             {
-                Console.WriteLine($"RECOVERING Event: '{msg}'");
+                Console.WriteLine($"RECOVERED Event: '{msg}'");
             });
 
         }
